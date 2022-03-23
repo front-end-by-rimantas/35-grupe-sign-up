@@ -23,6 +23,10 @@ body {
     float: left;
     padding: 40px;
     background-color: #008fae;
+    background-image: url(../img/hill.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
     color: #fff;
 }
 
