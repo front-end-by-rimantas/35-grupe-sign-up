@@ -1,12 +1,13 @@
 .container {
+    display: inline-block;
     width: 800px;
     margin-top: 100px;
     margin-left: calc(50% - 400px);
+    position: relative;
 }
 
 .left-column {
     width: 40%;
-    float: left;
     padding: 40px;
     background-color: #008fae;
     background-image: url(../img/hill.png);
@@ -14,16 +15,23 @@
     background-position: center;
     background-repeat: no-repeat;
     color: #fff;
+    position: absolute;
+    bottom: 30px;
+    top: 30px;
+    left: 0;
 }
 
 .main-title {
     width: 100%;
-    margin-bottom: 250px;
     font-size: 40px;
     font-weight: normal;
 }
 
 .bottom-links {
+    position: absolute;
+    bottom: 20px;
+    left: 40px;
+    right: 40px;
 }
 
 .bottom-links > .link {
@@ -32,10 +40,19 @@
 
 .right-column {
     width: 60%;
-    float: left;
+    float: right;
     padding: 60px;
     background-color: #fff;
+    position: relative;
 }
 
 .close {
+    width: 60px;
+    height: 60px;
+    font-size: 30px;
+    text-align: center;
+    line-height: 54px;
+    position: absolute;
+    right: 0;
+    top: 0;
 }
