@@ -26,6 +26,9 @@
     padding-top: 5px;
     padding-bottom: 5px;
 }
+.form > .form-row > .input:focus-visible {
+    outline: 1px solid red;
+}
 
 .form span {
     line-height: 40px;
